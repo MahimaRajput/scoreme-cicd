@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout the code from your Git repository
-                git url: 'https://github.com/MahimaRajput/Scoreme-test', branch: 'main'
+                git url: 'https://github.com/MahimaRajput/scoreme-cicd', branch: 'main'
             }
         }
         stage('Build and Test') {
